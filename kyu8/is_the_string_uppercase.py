@@ -9,4 +9,3 @@ def kyu8_is_uppercase(inp):
             return True
     else:
         return False
-    print('test')
