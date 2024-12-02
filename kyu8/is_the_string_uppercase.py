@@ -2,10 +2,12 @@ import string
 
 def kyu8_is_uppercase(inp):
     special_char=string.punctuation
-    for i in inp:
-        if i in string.punctuation and i.isupper():
-            return True
-        if inp.isupper():
-            return True
+    #for i in inp:
+    if inp.isupper():
+        return True
+    elif all(i in string.punctuation for i in inp):
+        return True
+    elif any(i.isdigit() for i in inp):
+        return False
     else:
         return False
