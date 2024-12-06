@@ -1,13 +1,14 @@
-#matrix = [[1,2,3,4],[5,6,7,8],[1,2,3,4]]
+import numpy as np
 
 def expected_value(r:int,c:int) -> int:
-    matrix= [[j + i and i -1 for j in range(0, c)]
-             for i in range(r )]
-    
-    #for i in range(r):
-        #row= []
-        #for j in range(c):
-        #    row.append(i+1, j-1)
-        #matrix.append(row)    
+    matrix= [[i -j for j in range(c +1)]
+             for i in range(r + 1 )]
+    sum_element = np.sum(matrix)
+    if r == 0:
+        numb_elements = (r)*(c+1)
+        return int(sum_element)
+    else:
+        numb_elements = (r+1)*(c+1)
+    return int(sum_element/numb_elements)    
         
-    return matrix    
+      
