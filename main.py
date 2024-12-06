@@ -4,6 +4,7 @@ from kyu7.even_num_array import even_numbers
 from kyu7.create_matrix import get_matrix
 from kyu7.increment import incrementer
 from kyu7.large_matrix_expected_value import expected_value
+from kyu7.factorizing import factorial
 
 def main():
     kyu8_is_uppercase('+H%)O9Z`JHPNQ4M*JK_@8N&{W 05\\SAYBV"')
@@ -12,5 +13,6 @@ def main():
     get_matrix(5)
     incrementer([1, 2, 3])
     expected_value()
+    factorial()
 if __name__ == "__main__":
     main()

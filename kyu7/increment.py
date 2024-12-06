@@ -9,7 +9,6 @@ def incrementer(nums):
             
         return i+idx
         
-        #if 10 <= nums[i]+i <= 99:
-            #l.append(nums[i]+i[2])
+     
             
     
