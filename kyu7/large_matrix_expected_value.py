@@ -1,14 +1,11 @@
-import numpy as np
+def expected_value(r: int, c: int) -> int:
+    
+    sum_j = c * (c + 1) // 2
+    total_sum =  (c + 1) * r * (r + 1) // 2 - (r + 1) * sum_j
+    numb_elements = (r + 1) * (c + 1)
 
-def expected_value(r:int,c:int) -> int:
-    matrix= [[i -j for j in range(c +1)]
-             for i in range(r + 1 )]
-    sum_element = np.sum(matrix)
-    if r == 0:
-        numb_elements = (r)*(c+1)
-        return int(sum_element)
-    else:
-        numb_elements = (r+1)*(c+1)
-    return int(sum_element/numb_elements)    
-        
+    return int(total_sum // numb_elements)
+
+    
+ 
       
