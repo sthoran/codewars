@@ -7,6 +7,7 @@ from kyu7.large_matrix_expected_value import expected_value
 from kyu7.factorizing import factorial
 from kyu8.counting_sheep import count_sheeps
 from kyu8.age_range_comp import  dating_range
+from kyu7.catch_sign_change import catch_sign_change
 
 def main():
     kyu8_is_uppercase('+H%)O9Z`JHPNQ4M*JK_@8N&{W 05\\SAYBV"')
@@ -22,6 +23,7 @@ def main():
                   True,  False, False, True ,
                   True,  True,  True,  True ,
                   False, False, True,  True ])
+    catch_sign_change([-7,-7,7,0])
     dating_range(17)
 if __name__ == "__main__":
     main()
