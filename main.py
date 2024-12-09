@@ -8,6 +8,7 @@ from kyu7.factorizing import factorial
 from kyu8.counting_sheep import count_sheeps
 from kyu8.age_range_comp import  dating_range
 from kyu7.catch_sign_change import catch_sign_change
+from kyu7.string_of_first_characters import make_string
 
 def main():
     kyu8_is_uppercase('+H%)O9Z`JHPNQ4M*JK_@8N&{W 05\\SAYBV"')
@@ -25,5 +26,6 @@ def main():
                   False, False, True,  True ])
     catch_sign_change([-7,-7,7,0])
     dating_range(17)
+    make_string("sees eyes xray yoat")
 if __name__ == "__main__":
     main()
