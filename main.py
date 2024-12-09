@@ -5,6 +5,7 @@ from kyu7.create_matrix import get_matrix
 from kyu7.increment import incrementer
 from kyu7.large_matrix_expected_value import expected_value
 from kyu7.factorizing import factorial
+from kyu8.counting_sheep import count_sheeps
 
 def main():
     kyu8_is_uppercase('+H%)O9Z`JHPNQ4M*JK_@8N&{W 05\\SAYBV"')
@@ -13,6 +14,12 @@ def main():
     get_matrix(5)
     incrementer([1, 2, 3])
     expected_value()
-    factorial()
+    factorial(5)
+    count_sheeps([True,  True,  True,  False,
+                  True,  True,  True,  True ,
+                  True,  False, True,  False,
+                  True,  False, False, True ,
+                  True,  True,  True,  True ,
+                  False, False, True,  True ])
 if __name__ == "__main__":
     main()
