@@ -1,13 +1,12 @@
-l =[]
 def incrementer(nums):
+    l =[]
     for i, idx in enumerate(nums):
-        print(idx)
-        arr = i+idx
-        for d in arr:
-            if d <= 10:
-                return 
-            
-        return i+idx
+        if i+(idx+1) > 9:
+            l.append(int(str(i+(idx+1))[1]))
+        else:
+            l.append(i+(idx+1))
+        
+    return l
         
      
             
