@@ -12,6 +12,7 @@ from kyu7.string_of_first_characters import make_string
 from kyu8.reserved_strings import solution
 from kyu7.find_missing_number import  missing_no
 from kyu7.largest_element import largest
+from kyu7.cat_and_mouse import cat_mouse
 
 nums = list(range(0,101))
 nums.remove(5)
@@ -36,6 +37,7 @@ def main():
     solution('world')
     missing_no(nums)
     largest(2,[10,9,8,7,6,5,4,3,2,1]) 
+    cat_mouse('C....m')
     
     
 if __name__ == "__main__":
