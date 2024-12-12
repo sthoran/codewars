@@ -14,6 +14,7 @@ from kyu7.find_missing_number import  missing_no
 from kyu7.largest_element import largest
 from kyu7.cat_and_mouse import cat_mouse
 from kyu7.responsible_drinking import hydrate
+from kyu7.sayhello import greet
 
 nums = list(range(0,101))
 nums.remove(5)
@@ -40,6 +41,8 @@ def main():
     largest(2,[10,9,8,7,6,5,4,3,2,1]) 
     cat_mouse('C....m')
     hydrate("1 beer")
+    greet("Jakob")
+    
     
     
 if __name__ == "__main__":
