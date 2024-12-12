@@ -15,6 +15,7 @@ from kyu7.largest_element import largest
 from kyu7.cat_and_mouse import cat_mouse
 from kyu7.responsible_drinking import hydrate
 from kyu7.sayhello import greet
+from kyu7.character_count import validate_word
 
 nums = list(range(0,101))
 nums.remove(5)
@@ -42,6 +43,7 @@ def main():
     cat_mouse('C....m')
     hydrate("1 beer")
     greet("Jakob")
+    validate_word("abcabc")
     
     
     
