@@ -16,6 +16,7 @@ from kyu7.cat_and_mouse import cat_mouse
 from kyu7.responsible_drinking import hydrate
 from kyu7.sayhello import greet
 from kyu7.character_count import validate_word
+from kyu7.odder_than_the_rest import odd_one
 
 nums = list(range(0,101))
 nums.remove(5)
@@ -44,7 +45,7 @@ def main():
     hydrate("1 beer")
     greet("Jakob")
     validate_word("abcabc")
-    
+    odd_one([2,16,98,10,13,78])
     
     
 if __name__ == "__main__":
