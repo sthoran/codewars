@@ -17,6 +17,8 @@ from kyu7.responsible_drinking import hydrate
 from kyu7.sayhello import greet
 from kyu7.character_count import validate_word
 from kyu7.odder_than_the_rest import odd_one
+from kyu7.fix_my_phone_number import is_it_a_num
+
 
 nums = list(range(0,101))
 nums.remove(5)
@@ -46,7 +48,7 @@ def main():
     greet("Jakob")
     validate_word("abcabc")
     odd_one([2,16,98,10,13,78])
-    
+    is_it_a_num("S:)0207ERGQREG88349F82!efRF)")
     
 if __name__ == "__main__":
     main()
