@@ -19,6 +19,7 @@ from kyu7.character_count import validate_word
 from kyu7.odder_than_the_rest import odd_one
 from kyu7.fix_my_phone_number import is_it_a_num
 from kyu7.debug_function import multi,add,reverse
+from kyu6.ticker import ticker
 
 
 nums = list(range(0,101))
@@ -53,7 +54,7 @@ def main():
     multi([8,2,5])
     add([1,15,3])
     reverse("Hello Word")
-    
+    ticker('Beautiful is better than ugly.', 10, 41)
     
     
 if __name__ == "__main__":
