@@ -18,6 +18,7 @@ from kyu7.sayhello import greet
 from kyu7.character_count import validate_word
 from kyu7.odder_than_the_rest import odd_one
 from kyu7.fix_my_phone_number import is_it_a_num
+from kyu7.debug_function import multi,add,reverse
 
 
 nums = list(range(0,101))
@@ -49,6 +50,11 @@ def main():
     validate_word("abcabc")
     odd_one([2,16,98,10,13,78])
     is_it_a_num("S:)0207ERGQREG88349F82!efRF)")
+    multi([8,2,5])
+    add([1,15,3])
+    reverse("Hello Word")
+    
+    
     
 if __name__ == "__main__":
     main()
