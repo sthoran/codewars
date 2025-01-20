@@ -19,6 +19,7 @@ from kyu7.character_count import validate_word
 from kyu7.odder_than_the_rest import odd_one
 from kyu7.fix_my_phone_number import is_it_a_num
 from kyu7.debug_function import multi,add,reverse
+from kyu6.norm_out_of_range_array_index import  norm_index_test
 from kyu6.ticker import ticker
 
 
@@ -54,6 +55,7 @@ def main():
     multi([8,2,5])
     add([1,15,3])
     reverse("Hello Word")
+    norm_index_test([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 9)
     ticker('Beautiful is better than ugly.', 10, 41)
     
     
