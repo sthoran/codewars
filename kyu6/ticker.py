@@ -1,5 +1,5 @@
 def ticker(text, width, tick):
-    for tick in range
+    #for tick in range:
     start = tick%len(text)
     if tick < width:
         tick = text[:tick]
