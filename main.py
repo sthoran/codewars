@@ -21,6 +21,8 @@ from kyu7.fix_my_phone_number import is_it_a_num
 from kyu7.debug_function import multi,add,reverse
 from kyu6.norm_out_of_range_array_index import  norm_index_test
 from kyu8.no_boring_zeros import no_boring_zeros
+from kyu7.substring_fun import nth_char
+from kyu7.sortby import sort_list
 #from kyu6.ticker import ticker
 #from kyu6.wordify import wordify
 
@@ -59,6 +61,8 @@ def main():
     reverse("Hello Word")
     norm_index_test([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 9)
     no_boring_zeros(12090)
+    nth_char(['yoda', 'best', 'has'])
+    sort_list("b", [ {"a": 2, "b": 2},{"a": 3, "b": 40},{"a": 1, "b": 12}] )
     #ticker('Beautiful is better than ugly.', 10, 41)
     #wordify(56)
     
