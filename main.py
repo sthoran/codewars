@@ -23,6 +23,7 @@ from kyu6.norm_out_of_range_array_index import  norm_index_test
 from kyu8.no_boring_zeros import no_boring_zeros
 from kyu7.substring_fun import nth_char
 from kyu7.sortby import sort_list
+from kyu7.strong_password import check_password
 #from kyu6.ticker import ticker
 #from kyu6.wordify import wordify
 
@@ -63,6 +64,7 @@ def main():
     no_boring_zeros(12090)
     nth_char(['yoda', 'best', 'has'])
     sort_list("b", [ {"a": 2, "b": 2},{"a": 3, "b": 40},{"a": 1, "b": 12}] )
+    check_password("P1@p")
     #ticker('Beautiful is better than ugly.', 10, 41)
     #wordify(56)
     
