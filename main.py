@@ -25,7 +25,7 @@ from kyu7.substring_fun import nth_char
 from kyu7.sortby import sort_list
 from kyu7.strong_password import check_password
 #from kyu6.ticker import ticker
-#from kyu6.wordify import wordify
+from kyu6.wordify import wordify
 
 
 nums = list(range(0,101))
@@ -66,7 +66,7 @@ def main():
     sort_list("b", [ {"a": 2, "b": 2},{"a": 3, "b": 40},{"a": 1, "b": 12}] )
     check_password("P1@p")
     #ticker('Beautiful is better than ugly.', 10, 41)
-    #wordify(56)
+    wordify(220)
     
     
 if __name__ == "__main__":
