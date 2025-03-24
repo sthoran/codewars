@@ -26,6 +26,7 @@ from kyu7.sortby import sort_list
 from kyu7.strong_password import check_password
 #from kyu6.ticker import ticker
 from kyu6.wordify import wordify
+from kyu8.vowel import is_vow
 
 
 nums = list(range(0,101))
@@ -67,7 +68,7 @@ def main():
     check_password("P1@p")
     #ticker('Beautiful is better than ugly.', 10, 41)
     wordify(220)
-    
+    is_vow(["e",121,110,113,113,103,121,121,"e",107,103 ])
     
 if __name__ == "__main__":
     main()
