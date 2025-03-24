@@ -68,7 +68,7 @@ def main():
     check_password("P1@p")
     #ticker('Beautiful is better than ugly.', 10, 41)
     wordify(220)
-    is_vow(["e",121,110,113,113,103,121,121,"e",107,103 ])
+    is_vow([118, 117, 120, 121, 117, 98, 122, 97, 120, 106, 104, 116, 113, 114, 113, 120, 106])
     
 if __name__ == "__main__":
     main()

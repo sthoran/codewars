@@ -1,3 +1,8 @@
 def is_vow(inp):
-    vowel= ['a','e','i','o','u']
-    return [item for item in inp if item not in vowel]
+    dict = {
+        97: 'a', 101:'e', 105 : 'i', 111: 'o', 117 : 'u'}
+    for number in inp:
+        print(number)
+        for k, v in dict.items():
+            if k in number:
+                print(number)
